@@ -3,12 +3,15 @@
     <string name="population_size">Rozmiar populacji:</string>
     <string name="city_size">Ilość miast:</string>
     <string name="action_settings">Settings</string>
-    <string name="start">Start</string>
+    <string name="start">Start (v1)</string>
     <string name="gen_number">Ilość generacji:</string>
     <string name="shortest_distance">Najkrótszy dystans:</string>
     <string name="podaj_rozmiar_populacji">Podaj rozmiar populacji</string>
     <string name="podaj_ilo_miast">Podaj ilość miast</string>
-    <string name="default_pop_size">30</string>
-    <string name="default_city_size">30</string>
-    <string name="max_gen_number">1000</string>
+    <string name="default_pop_size">50</string>
+    <string name="default_city_size">50</string>
+    <string name="max_gen_number">500</string>
+    <string name="heapSize">Rozmiar stosu</string>
+    <string name="heapSizeValue" />
+    <string name="startButton2">Start (v2)</string>
 </resources>

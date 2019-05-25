@@ -108,10 +108,10 @@ public class GeneticAlgorithm {
         int[][] parents = new int[populationSize][pointNum];
 
         int initnum = 4;
-        parents[0] = population[currentBestPosition]; // 当前种群中最好的个体
-        parents[1] = exchangeMutate(bestIndivial.clone()); // 对最好的个体进行交换变异
-        parents[2] = insertMutate(bestIndivial.clone()); // 对最好的个体进行插入变异
-        parents[3] = bestIndivial.clone(); // 所有代中最好的个体
+        parents[0] = population[currentBestPosition];
+        parents[1] = exchangeMutate(bestIndivial.clone());
+        parents[2] = insertMutate(bestIndivial.clone());
+        parents[3] = bestIndivial.clone();
 
         setRoulette();
         for (int i = initnum; i < populationSize; i++) {
